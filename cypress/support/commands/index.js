@@ -1,2 +1,1 @@
-import './iframe';
 import './utils';
