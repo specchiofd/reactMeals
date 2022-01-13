@@ -24,14 +24,14 @@ describe('meals-list-ui-test', () => {
       mealsListFirstItem.find('h3').should('have.text', 'Sushi');
     });
 
-    it('chekck the quantity is one by default', () => {
+    it('check the quantity is one by default', () => {
       const mealsListFirstItem = cy.getByTestId('mealsList').get('li').first();
       mealsListFirstItem.getById('amount').should('have.attr', 'value', '1');
     });
   
-    context('le\'s buy some sushi!', () => {
+    context('add meal to cart', () => {
   
-      it('change quantity x3! (I\'m very hungry)', () => {
+      it('change quantity x3', () => {
         const mealsListFirstItem = cy.getByTestId('mealsList').get('li').first();
         mealsListFirstItem.getById('amount').type('{backspace}').type('3').trigger('change');
         cy.getByTestId('mealsList').get('li').first().find('button').click();

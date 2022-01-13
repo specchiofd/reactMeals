@@ -97,7 +97,7 @@ const Checkout = (props) => {
         <button type='button' onClick={props.onCancel}>
           Cancel
         </button>
-        <button className={classes.submit}>Confirm</button>
+        <button data-testid="confirmOrderButton" className={classes.submit}>Confirm</button>
       </div>
     </form>
   );
