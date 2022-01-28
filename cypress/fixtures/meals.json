@@ -1,0 +1,12 @@
+{
+    "m1": {
+        "description": "Cypress Test Description",
+        "name": "Cypress Test Meal",
+        "price": 22.99
+    },
+    "m2": {
+        "description": "Cypress Test Description 2",
+        "name": "Cypress Test Meal 2",
+        "price": 16.5
+    }
+}

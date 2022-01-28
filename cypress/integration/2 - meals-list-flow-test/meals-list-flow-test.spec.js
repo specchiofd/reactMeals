@@ -31,7 +31,7 @@ describe('le\'s buy some sushi!', () => {
   //     cy.getByTestId('successfullyMessage').should('be.visible');
   //   });
 
-    it('change quantity x3! (I\'m very hungry) with PageObject pattern', () => {
+    it('Same test but with PageObject pattern!!', () => {
       HomePage.addFirstMealToCart(2);
       HomePage.orderMyMeal();
       OrderModal.compileFormAndSubmit({ name: 'Pino Foresta', street: 'Via delle Querce, 10', postal: 12345, city: 'Boscoville' });
