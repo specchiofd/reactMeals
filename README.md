@@ -28,6 +28,12 @@ For running cypress...
 $ npm run cypress
 ```
 
+For running cypress reports
+
+```sh
+$ npx cypress run
+```
+
 License
 ----
 

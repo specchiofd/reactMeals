@@ -3,5 +3,14 @@
     "chromeWebSecurity": false,
     "viewportWidth": 1280,
     "viewportHeight": 800,
-    "env": {}
+    "env": {},
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "charts": true,
+        "reportPageTitle": "ReactMeals Test Suite",
+        "embeddedScreenshots": true,
+        "inlineAssets": true
+    },
+    "video": true
 }
