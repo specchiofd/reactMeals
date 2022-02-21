@@ -19,3 +19,5 @@ import 'cypress-mochawesome-reporter/register';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// npx cypress run --record --key 3acb404a-4604-49c2-a0f1-5720143c0295
